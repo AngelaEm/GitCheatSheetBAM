@@ -1,0 +1,47 @@
+Labb 1 Mats, Benjamin, Angela
+
+1. git config --global user.name "[name]"
+2. git config --global user.email "[email address]"
+3. git config --global color.ui auto
+4. git init
+5. git clone [url]
+6. git branch [branch-name]
+7. git checkout [branch-name]
+8. git merge [branch]
+9. git branch -d [branch-name]
+10.git add [file]
+11.git add .
+12.git status
+13.git status --ignored
+14.git diff
+15.git diff HEAD
+16.git commit -m "[message]" 
+17.git restore [file]
+18.git push
+19.git pull
+20.git rm [file]
+21.git branch
+22.git branch -a
+23.git branch -r
+24.git checkout -b [new-branch-name]
+25.git log
+26.git fetch
+27.git tag
+28.git help
+29.git help commit
+30.git help clone
+31.git gc
+32.git diff [first commit] [second commit]
+33.git tag
+34.git push -all
+35.git show
+36.git show [commit]
+37.git revert [commit]
+38.git push -u origin main
+39.git -version
+40.git stash
+41.git switch [branch-name]
+42.git switch -c [new-branch-name]
+43.git remote add [remote-name] [url]
+44.git reset [file]
+45.git rebase [branch]
