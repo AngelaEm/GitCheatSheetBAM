@@ -51,3 +51,94 @@
 
 
 
+<h3>git commit -m "[message]" </h3>
+<p>Kommandot används för att göra en "commit" till ett Git-repo. Den används för att spara ändringarna som man gjort till det lokala "commits" inför push.</p>
+<hr>
+<h3>git restore [file]</h3>
+<p>Kommandot används för att återställa filen i ditt Git-repo till dess senaste	sparade tillstånd.</p>
+<hr>
+<h3>git push</h3>
+<p>Kommandot används för att skicka (pusha) dina lokala commits till en fjärrserver (remote repository). </p>
+<hr>
+<h3>git pull</h3>
+<p>Kommandot används för att hämta (fetcha) och integrera (merge) ändringar från en fjärrserver (remote repository), till din lokala arbetskopia av ett Git-repo</p>
+<hr>
+<h3>git rm [file]</h3>
+<p>Kommandot används för att ta bort (remove) en fil från både ditt arbetsområde och från Git-repo. </p>
+<hr>
+<h3>git branch</h3>
+<p>Kommandot används för att lista grenar i ett Git-repo.</p>
+<hr>
+<h3>git branch -a</h3>
+<p>Kommandot används för att visa en lista över både lokala grenar (branches) och fjärrgrenar (remote branches) i ett Git-repo. </p>
+<hr>
+<h3>git branch -r</h3>
+<p>Kommandot används för att visa en lista över fjärrgrenar (remote branches) i ett Git-repos.</p>
+<hr>
+<h3>git checkout -b [new-branch-name]</h3>
+<p>Kommandot används för att skapa och byta till en ny gren (branch) i ett Git-repo i ett enda steg.</p>
+<hr>
+<h3>git log</h3>
+<p>Kommandot används för att visa en historik över commits i ett Git-repo.</p>
+<hr>
+<h3>git fetch</h3>
+<p>Kommandot som hämtar alla ändringar från en fjärrserver (remote repository) till ditt lokala Git-repo.</p>
+<hr>
+<h3>git tag</h3>
+<p>Kommandot används för att märka specifika punkter i historiken för en kodbas, vanligtvis för att markera speciella versioner som släpps.</p>
+<hr>
+<h3>git help</h3>
+<p>Kommandot används för att få dokumentationen om dom vanligaste Git-kommandon. </p>
+<hr>
+<h3>git help commit</h3>
+<p>kommandot används för att ta fram hjälpdokumentationen för Git-kommandot commit. </p>
+<hr>
+<h3>git help clone</h3>
+<p>kommandot används för att ta fram hjälpdokumentationen för Git-kommandot clone. </p>
+<hr>
+<h3>git gc</h5>
+<p>Står för "garbage collect". Rensar upp onödiga filer för att optimera det lokala git-repot. Git sparar en massa data när man arbetar och det kan bli ganska mycket. Efter ett tag är en del data inte längre nödvändig eller användbar och då kan man rensa med git gc. Kan vara lurigt att använda om man inte har full koll på vad som rensas bort, speciellt om man delar repo med andra.</p>
+<hr>
+<h3>git diff [first commit] [second commit]</h3>
+<p>Listar ändringar i filerna mellan first commit och second commit så man kan se skillnaderna mellan två commits.</p>
+<hr>
+<h3>git tag</h3>
+<p>Används för att märka specifika commits med enkla namn. Detta är bra så det är lättare att hitta viktiga commits.</p>
+<hr>
+<h3>git push -all</h3>
+<p>Skickar alla lokala brancher till remote repot. Användbart om man vill pusha flera branches på en gång.</p>
+<hr>
+<h3>git show</h3>
+<p> Visar detaljerad information om den senaste commiten. Visar meddelandet och diffen för ändringarna.</p>
+<hr>
+<h3>git show [commit]</h3>
+<p>Visar detaljerad information om en specifik commit i stället för den senaste. Visar meddelandet och diffen för ändringarna.</p>
+<hr>
+<h3>git revert [commit]</h3>
+<p>Skapar en ny commit som ångrar effekten av tidigare commit men bevarar projektets historia. Det ser ut som att det aldrig var något misstag, men man kan fortfarande se alla steg, inklusive misstaget och hur man fixade det.</p>
+<hr>
+<h3>git push -u origin main</h3>
+<p>Används för att skicka ändringar från ett lokala repo till ett remote repo. Push används för att skicka ändingar. -u står för "upstream" och används för att sätta remotebranchen som standard så att man vi framtida pushar bara behöver skriva git push. Origin är standardnamnet på det remote repot som det lokala repot är kopplat till. Main är dit man skickar ändringarna.</p>
+<hr>
+<h3>git -version</h3>
+<p>Visar vilken version av Git som man har installerad.</p>
+<hr>
+<h3>git stash</h3>
+<p>Används för att tillfälligt lagra ändringar som man inte är redo att göra en commit av. Man kan spara sitt arbete utan att göra en commit. Kan vara användbart om man behöver jobba i olika branches men inte vill förlora eller commita det man gjort.</p>
+<hr>
+<h3>git switch [branch-name]</h3>
+<p>Byter till branchen [branch-name].</p>
+<hr>
+<h3>git switch -c [new-branch-name]</h3>
+<p>Skapar en ny branch [new-branch-name] och byter till den direkt. C står för create.</p>
+<hr>
+<h3>git remote add [remote-name] [url]</h3>
+<p>Används när man har ett lokalt repo och vill lägga till en referens till ett externt repo för att sedan kunna pusha eller pulla därifrån.</p>
+<hr>
+<h3>git reset [file]</h3>
+<p>Om man har gjort en git add [file] så att filen hamnat i staging-området i Git men ångrar sig kan man skriva detta kommando. Den ångrar "add" så att den aktuella filen inte längre är redo för commit.</p>
+<hr>
+<h3>git rebase [branch]</h3>
+<p>Används för att skriva om hela serier av commits så att de ser ut att ha utgått från en annan bas. Det kan göra historiken renare och enklare att följa.</p>
+<hr>
+
